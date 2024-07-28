@@ -49,8 +49,20 @@ function guessNum(){
         document.getElementById('result').innerHTML = 'Congrats!';
     }else{
         document.getElementById('result').innerHTML = 'That is the the wrong number, the number was' + randNum + '.';
-    }
-
-    
+    }    
 }
 
+let userName='ready';
+let password='test';
+
+function login(){
+    let uname = prompt('Enter your user name');
+    let pass = prompt('Enter password');
+
+    if (uname==userName && pass==password){
+        document.getElementById('results').innerHTML='Welcome to the system' + uname;
+
+    }else{
+        DocumentFragment.getElementById('results').innerHTML
+    }
+}
