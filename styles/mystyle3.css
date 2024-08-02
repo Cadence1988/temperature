@@ -1,0 +1,117 @@
+header {
+    width: 100%;
+}
+
+.headerImg {
+    width: 100%;
+    height: 400px;
+    background-image: url('https://c.tenor.com/WmU_8UAyg_8AAAAC/tenor.gif'); /* Direct URL to the GIF */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*site background*/
+
+.site-back{
+    width: 100%;
+    background-image: url('https://media2.giphy.com/media/CKlafeh1NAxz35KTq4/giphy-downsized-large.gif');
+    background-size: cover;
+}
+
+/* styles.css */
+
+
+ 
+
+/**/
+.container {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    justify-content: center; /* Center items horizontally within the container */
+    align-items: flex-start; /* Align items to the start of the cross-axis (top) */
+    padding: 20px;
+    gap: 20px; /* Add space between the containers */
+}
+/**/
+.tempCon{
+    display: flex;
+    flex-direction: column; /* Stack contents vertically within each container */
+    text-align: center;
+    background-image: url('../img/thermometer1.jpg');
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: Add a border for visual separation */
+    border-radius: 8px; /* Optional: Round the corners of the border */
+     
+}
+
+.diceCon {
+    display: flex;
+    flex-direction: column; /* Stack contents vertically within each container */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: Add a border for visual separation */
+    border-radius: 8px; /* Optional: Round the corners of the border */
+    background-image: url('../img/seamless.jpg'); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.dice {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 50px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.game-container {
+    text-align: center;
+    background-image: url('../img/seamless.jpg');
+    color: azure;
+}
+
+.player-container {
+    margin-bottom: 20px;
+}
+
+
+/*Liar Dice*/
+.dice {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 50px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
